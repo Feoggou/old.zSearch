@@ -1,0 +1,13 @@
+x Path: create a Path object out of a string.
+x Dir: create a dir out of a path.
+x Dir: does dir exist?
+x file: create, delete, exists
+x dir: create file
+- file: r /w
+- file: abs / rel path
+- WinDir: drive?
+- GetCurDir
+- Dir: get iterator
+- Dir: begin(), cbegin()
+- Dir: end(), cend()
+- DirIterator: ++I, I++, *I

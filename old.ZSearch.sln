@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZSearch", "ZSearch\ZSearch.vcxproj", "{94947A37-48A4-4DF5-9BCE-2D7881FD3A6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EB53E693-1F95-4BBF-9BA8-4C57E438611B} = {EB53E693-1F95-4BBF-9BA8-4C57E438611B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cZSearch", "cZSearch\cZSearch.vcxproj", "{8458D78C-1DE2-4C3B-BC29-80652342A746}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZCore", "ZCore\ZCore.vcxproj", "{EB53E693-1F95-4BBF-9BA8-4C57E438611B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "utest_ZSearch", "utest_zSearch\utest_zSearch.vcxproj", "{A24F75BC-99CA-40D2-89AC-6F1768D98D02}"
+	ProjectSection(ProjectDependencies) = postProject
+		{94947A37-48A4-4DF5-9BCE-2D7881FD3A6A} = {94947A37-48A4-4DF5-9BCE-2D7881FD3A6A}
+		{EB53E693-1F95-4BBF-9BA8-4C57E438611B} = {EB53E693-1F95-4BBF-9BA8-4C57E438611B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94947A37-48A4-4DF5-9BCE-2D7881FD3A6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94947A37-48A4-4DF5-9BCE-2D7881FD3A6A}.Debug|Win32.Build.0 = Debug|Win32
+		{94947A37-48A4-4DF5-9BCE-2D7881FD3A6A}.Release|Win32.ActiveCfg = Release|Win32
+		{94947A37-48A4-4DF5-9BCE-2D7881FD3A6A}.Release|Win32.Build.0 = Release|Win32
+		{8458D78C-1DE2-4C3B-BC29-80652342A746}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8458D78C-1DE2-4C3B-BC29-80652342A746}.Debug|Win32.Build.0 = Debug|Win32
+		{8458D78C-1DE2-4C3B-BC29-80652342A746}.Release|Win32.ActiveCfg = Release|Win32
+		{8458D78C-1DE2-4C3B-BC29-80652342A746}.Release|Win32.Build.0 = Release|Win32
+		{EB53E693-1F95-4BBF-9BA8-4C57E438611B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB53E693-1F95-4BBF-9BA8-4C57E438611B}.Debug|Win32.Build.0 = Debug|Win32
+		{EB53E693-1F95-4BBF-9BA8-4C57E438611B}.Release|Win32.ActiveCfg = Release|Win32
+		{EB53E693-1F95-4BBF-9BA8-4C57E438611B}.Release|Win32.Build.0 = Release|Win32
+		{A24F75BC-99CA-40D2-89AC-6F1768D98D02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A24F75BC-99CA-40D2-89AC-6F1768D98D02}.Debug|Win32.Build.0 = Debug|Win32
+		{A24F75BC-99CA-40D2-89AC-6F1768D98D02}.Release|Win32.ActiveCfg = Release|Win32
+		{A24F75BC-99CA-40D2-89AC-6F1768D98D02}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

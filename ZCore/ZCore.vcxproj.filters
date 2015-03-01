@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{f134216e-ca2b-411e-b38e-f054a78cb8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{d66a5f3e-c760-4abd-a752-7d3d03855e69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinDir.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="MemResource.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Dir.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DirIterator.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FilePath.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFilePath.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="FSObject.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="WinDirEnumerator.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DirEnumeratorImpl.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+    <ClInclude Include="DirImpl.h">
+      <Filter>Code</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Dir.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDir.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DirIterator.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FilePath.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="WinFilePath.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="FSObject.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="utest_ZCore.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="utest_ZCoreWin.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DirEnumerator.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDirEnumerator.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DirEnumeratorImpl.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+    <ClCompile Include="DirImpl.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DirEnumerator.h">
+      <Filter>Code</Filter>
+    </None>
+  </ItemGroup>
+</Project>
